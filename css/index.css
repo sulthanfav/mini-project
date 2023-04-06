@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#segitiga{
+    display: none;
+}
+#jajargenjang{
+    display: none;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show button{
+    width: 100px;
+    margin-right: 10px;
+    background-color: white;
+    color: #0B2447;
+    padding: 10px;
+    border-color: #0B2447;
+    border-radius: 5px;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.warp{
+    margin: 20px 20% 0 20%;
+    padding: 10px;
+    background-color: #0B2447;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    color: white;
+}
+
+.input{
+    padding: 10px;
+    width: 100%;
+}
+
+.button{
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.luasSegitiga{
+    margin: 20px 20% 0 20%;
+    padding: 10px;
+    background-color: #0B2447;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    color: white;
+}
+

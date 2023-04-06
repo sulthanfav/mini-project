@@ -1,0 +1,74 @@
+<html>
+<head>
+	<title>Kalkulator Segitiga dan Jajargenjang</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <header>
+	<h1>Kalkulator Segitiga dan Jajargenjang</h1>
+	<div class="show">
+	<button onclick="showSegitiga()" class="showSegitiga">Segitiga</button><br>
+	<button onclick="showJajargenjang()" id="showJajargenjang">Jajargenjang</button>
+	</div>
+    </header>
+
+    <main>
+	<div id="segitiga">
+		<h2>Kalkulator Segitiga</h2>
+        <img src="assets/segitiga.png" width="50%">
+        <div class="warp">
+            <h2>Keliling Segitiga</h2>
+            <form>
+			<input type="text" id="sisi1" name="sisi1" placeholder="sisi 1" class="input"><br><br>
+			<input type="text" id="sisi2" name="sisi2" placeholder="sisi 2" class="input"><br><br>
+			<input type="text" id="sisi3" name="sisi3" placeholder="sisi 3" class="input"><br><br>
+			<button type="button" onclick="hitungKelilingSegitiga()" class="button">Hitung Keliling</button><br><br>
+			<label for="hasilKelilingSegitiga">Hasil Keliling:</label><br>
+			<input type="text" id="hasilKelilingSegitiga" name="hasilKelilingSegitiga" class="input"><br><br>
+            <button type="reset" class="button">Reset</button>
+		</form>
+        </div>
+        <div class="warp">
+            <h2>Luas Segitiga</h2>
+            <form>
+                <input type="text" id="alas" name="alas" placeholder="alas" class="input"><br><br>
+                <input type="text" id="tinggi" name="tinggi" placeholder="tinggi" class="input"><br><br>
+                <button type="button" onclick="hitungLuasSegitiga()" class="button">Hitung Luas</button><br><br>
+                <label for="hasilLuasSegitiga">Hasil Luas:</label><br>
+                <input type="text" id="hasilLuasSegitiga" name="hasilLuasSegitiga" class="input"><br><br>
+                <button type="reset" class="button">Reset</button>
+            </form>
+        </div>
+	</div>
+	
+	<div id="jajargenjang">
+		<h2>Kalkulator Jajargenjang</h2>
+        <img src="assets/jajargenjang.png" width="50%">
+        <div id="kelJarjargenjang" class="warp">
+        <h2>Keliling Jajargenjang</h2>
+		<form>
+			<input type="text" id="alasJajargenjang" name="alasJajargenjang" placeholder="alas" class="input"><br><br>
+			<input type="text" id="sisiMiringJajargenjang" name="sisiMiringJajargenjang" placeholder="Sisi Miring" class="input"><br><br>
+			<button type="button" onclick="hitungKelilingJajargenjang()" class="button">Hitung Keliling</button><br>
+			<label for="hasilKelilingJajargenjang">Hasil Keliling:</label><br>
+			<input type="text" id="hasilKelilingJajargenjang" name="hasilKelilingJajargenjang" class="input"><br><br>
+            <button type="reset" class="button">Reset</button>
+        </form>
+        </div>
+        <div class="warp">
+            <h2>Luas Jajargenjang</h2>
+            <form>
+                <input type="text" id="alasJajargenjang1" name="alasJajargenjang" placeholder="alas" class="input"><br><br>
+                <input type="text" id="tinggiJajargenjang" name="tinggiJajargenjang" placeholder="tinggi" class="input"><br><br>
+                <button type="button" onclick="hitungLuasJajargenjang()" class="button">Hitung Luas</button><br><br>
+                <label for="hasilLuasJajargenjang">Hasil Luas:</label><br>
+                <input type="text" id="hasilLuasJajargenjang" name="hasilLuasJajargenjang" class="input"><br><br>
+                <button type="reset" class="button">Reset</button>
+            </form>
+        </div>
+    </div>
+    </main>
+</body>
+<script src="js/index.js"></script>
+</html>
